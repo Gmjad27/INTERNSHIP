@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.info {
+    color: aliceblue;
+    position: absolute;
+    border: 1px solid black;
+    width: 300px;
+    height: 96%;
+    background-color: blue;
+    /* padding: 10px; */
+    left: 20px;
+    top: 20px;
+    bottom: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    margin-top: 20px;
+    /* background-color: white; */
+    background-image: url('data:image/jpeg;base64,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');
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+
+    /* object-fit: cover; */
+}
+
+.con-info,
+.edu,
+.lan {
+    margin-top: 20px;
+    text-align: start;
+    margin-left: 20px;
+}
+
+.details ul {
+    /* list-style: none; */
+    margin-left: 20px;
+    margin-top: 13px;
+    /* font-size: 18px; */
+}
+
+.con-info ul {
+    list-style: none;
+}
+
+.details li {
+    margin-top: 13px;
+
+}
+
+.sec {
+    padding: 30px;
+    position: absolute;
+    /* right: 50%; */
+    left: 39%;
+}
+
+.skills {
+    list-style: none;
+    margin-left: 40px;
+    /* gap: 20px; */
+}
+
+.skills li {
+    padding: 15px;
+    /* margin-bottom: 15px; */
+}
+
+
+.sec h1 {
+    margin-bottom: 10px;
+    color: blue;
+    padding: 20px;
+    margin-left: -30px;
+}
