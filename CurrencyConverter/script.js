@@ -4,6 +4,9 @@ const chCur = document.getElementById('ch');
 const convert = document.getElementById('con');
 // const btn = document.getElementById('sbt');
 
+
+
+
 const usd = {
     inr: 88.79,
     eur: 0.86,
