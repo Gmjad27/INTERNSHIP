@@ -7,7 +7,7 @@ let ell = '';
 
 
 ad.addEventListener('click', function () {
-    al.innerHTML = '<li>' + ai.value + ' <i id="del" class="bi bi-trash3-fill"></i></li>' + ell
-    ell = '<li>' + ai.value + ' <i id="del" class="bi bi-trash3-fill"></i></li>' + al.value
+    al.innerHTML = '<li>' + ai.value + ' <i id="del" class="bi bi-trash3-fill"></i></li>' + ell;
+    ell = '<li>' + ai.value + ' <i id="del" class="bi bi-trash3-fill"></i></li>' + al.value;
 
 });

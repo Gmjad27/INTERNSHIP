@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to top, rgb(255, 255, 255) 50%, rgb(0, 0, 179) 50%);
+  /* background-repeat: no-repeat;
+    background-size: cover; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.con {
+  display: flex;
+  gap: 5%;
+  padding: 0px 0px 0px 40px;
+}
+
+.container {
+
+  background-color: rgb(255, 255, 255);
+  width: 800px;
+  height: 500px;
+  border-radius: 30px;
+
+  box-shadow: 1px 1px 15px;
+}
+
+.container h1 {
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.proBar {
+
+  /* border: 1px solid; */
+  background-color: rgba(153, 153, 153, 0.466);
+  width: 340px;
+  height: 8px;
+  margin-bottom: 80px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.lanName {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress {
+  background-color: blue;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  /* width: 80%; */
+}
+
+.ball {
+  width: 30px;
+  height: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 179);
+}
+
+.balls {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+label {
+  font-size: large;
+  font-weight: 900;
+  /* color: #0e0000; */
+}
