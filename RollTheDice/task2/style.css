@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    /* background-color: purple; */
+    background-image: linear-gradient(white 50%, #5e5e5e 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 900;
+}
+
+.con {
+    /* border: 1px solid black; */
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 250, 243);
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+
+}
+
+
+.dice {
+    width: 90%;
+    height: 40%;
+    /* border: 1px solid; */
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: antiquewhite; */
+
+}
+
+
+.dice1,
+.dice2 {
+    background-image: url('dice-1.svg');
+
+    background-position: center;
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+    /* box-shadow:0 0 20px rgb(214, 55, 214); */
+    /* border: 3px solid; */
+    font-size: 90px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#res {
+    font-size: 40px;
+    margin-bottom: 40px;
+
+    /* color: aliceblue; */
+}
+
+#btn {
+    font-size: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-weight: 900;
+}
+
+#btn:hover {
+    background-image: linear-gradient(to top left, aqua, rgb(12, 255, 105));
+    color: black;
+    box-shadow: 0 0 20px rgb(0, 255, 255);
+}

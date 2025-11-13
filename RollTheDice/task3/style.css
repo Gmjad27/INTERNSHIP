@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    /* background-color: pink; */
+    background-image: linear-gradient(to top left, rgb(206, 48, 74), rgb(85, 204, 85));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* color: black; */
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.con {
+    /* border: 1px solid black; */
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+
+}
+
+
+.dice {
+    width: 90%;
+    height: 40%;
+    /* border: 1px solid; */
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.dice1,
+.dice2 {
+    background-image: url('image/dice-01.svg');
+
+    background-position: center;
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+    /* box-shadow:0 0 20px rgb(214, 55, 214); */
+    /* border: 3px solid; */
+    font-size: 90px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#res {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#btn {
+    font-size: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-weight: 900;
+}
+
+#btn:hover {
+    background-image: linear-gradient(to top left, rgb(38, 65, 65), rgb(12, 255, 105));
+    color: black;
+    box-shadow: 0 0 10px rgb(0, 255, 255);
+}
